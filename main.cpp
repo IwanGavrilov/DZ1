@@ -2,8 +2,10 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main (int, char **) {
-    std::cout << "DZ - 1" << std::endl;
+    cout << "DZ - 1" << endl;
     std::cout << "Version: " << version() << std::endl;
     std::cout << "Hello, world!" << std::endl;
     return 0;

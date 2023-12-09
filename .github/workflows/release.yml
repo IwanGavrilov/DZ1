@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/push
+      - uses: actions/checkout@v2
         with:
           submodules: true
       - run: sudo apt-get update && sudo apt-get install libboost-test-dev -y
